@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+/* Configurações globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+body {
+  background: lightpink;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Container */
+.quadro-global {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.quadro-global h1 {
+  text-align: center;
+  color: rgba(13, 14, 13, 0.897);
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+}
+hr {
+  font-weight: bold;
+  height: 3px;
+  background: black;
+  margin-bottom: 20px;
+}
+
+/* Janela do jogo */
+.janela-jogo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.janela-jogo button {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 50px;
+  background: white;
+}
